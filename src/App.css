@@ -44,3 +44,23 @@
     transform: rotate(360deg);
   }
 }
+.available {
+  color:red
+}
+
+.class-header, .selected-class {
+  width: 20%;
+  margin: auto;
+}
+.container {
+  display: flex;
+}
+.class-header {
+  width: 300px;
+}
+.selected-class {
+  flex-grow: 1;
+}
+.selected-class li {
+  list-style-type: none;
+}

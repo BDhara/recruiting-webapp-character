@@ -1,5 +1,6 @@
 import './App.css';
-import Attribute from './components/Attributes/Attribute';
+// import Attribute from './components/Attributes/Attribute';
+import CharacterCreator from './components/CharacterCreator'; 
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
         <h1>React Coding Exercise</h1>
       </header>
       <section className="App-section">
-        <Attribute />
+        <CharacterCreator />
       </section>
     </div>
   );
